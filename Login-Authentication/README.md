@@ -1,4 +1,5 @@
 **Secure Login Authentication System**
+
 This project is a secure login authentication system built with Node.js, Express, and MongoDB. It includes user registration, login, and protected routes, with enhanced security features like password hashing and JWT authentication.
 
 **Features**
@@ -7,7 +8,7 @@ This project is a secure login authentication system built with Node.js, Express
 3. Password hashing with bcrypt
 4. JWT-based authentication
 5. MongoDB for data storage
-6. 
+
 **Getting Started**
  **Prerequisites**
 1. Node.js
@@ -15,26 +16,21 @@ This project is a secure login authentication system built with Node.js, Express
    
 **Installation**
 
-**Clone the repository:**
+**1. Clone the repository:**
+     git clone https://github.com/yourusername/secure-login-authentication-system.git
+     cd secure-login-authentication-system
 
-git clone https://github.com/yourusername/secure-login-authentication-system.git
-cd secure-login-authentication-system
+**2. Install dependencies:**
+     npm install
 
-**Install dependencies:**
+**3. Start MongoDB:**
+     mongod
 
-npm install
+**4. Start the server:**
+     node server.js
 
-**Start MongoDB:**
-
-mongod
-
-**Start the server:**
-
-node server.js
-
-**Access the application:**
-
-Open your browser and navigate to http://localhost:3000.
+**5. Access the application:**
+     Open your browser and navigate to http://localhost:3000.
 
 **License**
 
