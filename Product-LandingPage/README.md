@@ -4,15 +4,15 @@ This repository contains the code for a product landing page designed to showcas
 
 **Features**
 
-  **1. Structured Layout:** Sections for product introduction, features, benefits, and call-to-action.
+  1. Structured Layout: Sections for product introduction, features, benefits, and call-to-action.
   
-  **2. Responsive Design:** Ensures compatibility across various devices.
+  2. Responsive Design: Ensures compatibility across various devices.
   
-  **3. Visual Appeal:** High-quality images and attractive visuals.
+  3. Visual Appeal: High-quality images and attractive visuals.
   
-  **4. Optimized Performance:** Fast-loading images for better user experience.
+  4. Optimized Performance: Fast-loading images for better user experience.
   
-  **5. Effective Call-to-Action:** Prominent button to drive conversions.
+  5. Effective Call-to-Action: Prominent button to drive conversions.
 
 **Technologies Used**
 1. HTML5
