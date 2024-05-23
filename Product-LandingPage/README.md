@@ -23,4 +23,5 @@ This repository contains the code for a product landing page designed to showcas
         Open the index.html file in your browser.
 
 **License**
+
 This project is licensed under the MIT License.
