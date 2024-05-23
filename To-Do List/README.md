@@ -18,8 +18,7 @@ A simple and interactive to-do list web application built as part of the Devtern
 **Getting Started**
 
    **Prerequisites**
-   
-     Make sure you have a modern web browser installed.
+   Make sure you have a modern web browser installed.
 
    **Installation**
    
