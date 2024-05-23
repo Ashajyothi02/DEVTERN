@@ -25,7 +25,8 @@ This repository contains the code for a product landing page designed to showcas
          
    **2. Navigate to the project directory:**
         cd clay-pots-landing-page
-        Open the index.html file in your browser.
+   **3. Open the index.html file in your browser:**
+        open index.html
 
 **License**
 
