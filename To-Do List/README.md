@@ -24,16 +24,13 @@ A simple and interactive to-do list web application built as part of the Devtern
    **Installation**
    
    **1. Clone the repository:**
-     
-      git clone https://github.com/your-username/todo-list-web-app.git
+     git clone https://github.com/your-username/todo-list-web-app.git
 
    **2. Navigate to the project directory:**
-         
-      cd todo-list-web-app
+         cd todo-list-web-app
          
    **3. Open the index.html file in your web browser:**
-
-      open index.html
+       open index.html
           
 **Usage**
 
