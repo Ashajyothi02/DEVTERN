@@ -3,6 +3,7 @@
 This repository contains the code for a product landing page designed to showcase and sell clay pots. This project was developed as part of the Devtern web development internship.
 
 **Features**
+
   **1. Structured Layout:** Sections for product introduction, features, benefits, and call-to-action.
   
   **2. Responsive Design:** Ensures compatibility across various devices.
