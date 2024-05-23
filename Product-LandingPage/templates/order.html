@@ -1,0 +1,207 @@
+<html>
+<title>ORDER</title>
+<A HREF="/">HOME</A>
+<A HREF="/about">ABOUT</A>
+<A HREF="/gallery">GALLERY</A>
+<A HREF="/contact">CONTACT</A>
+<A HREF="/order">ORDER</A>
+<head><center align="center"><h1><font color = "663300">PRODUCT ORDER FORM</h1></center></head>
+<body bgcolor="FFFFCC">
+   <div class="form"><center align="center">
+    <form action="/">
+        <div class="container">
+          <h1>BILLING ADDRESS</h1>
+          <form>
+            <div class="form-group">
+             <label for="fname"><i class="fa fa-user"></i> First Name</label>
+             <input type="text" id="fname" name="firstname" placeholder="John M" required>
+            </div>
+            <br></br>
+           <div class="form-group">
+             <label for="fname"><i class="fa fa-user"></i> Last Name</label>
+             <input type="text" id="fname" name="lastname" placeholder="Doe" required>
+           </div>
+           <br></br>
+           <div class="form-group">
+            <label for="phone">Phone number</label>
+            <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="123-456-7890" required>
+          </div>
+          <br></br>
+           <div class="form-group">
+             <label for="email"><i class="fa fa-envelope"></i> Email</label>
+             <input type="text" id="email" name="email" placeholder="john@example.com" required>
+           </div>
+           <br></br>
+           <div class="form-group">
+             <label for="adr"><i class="fa fa-address-card-o"></i> Address</label>
+             <input type="text" id="adr" name="address" placeholder="542 W. 15th Street" required>
+           </div>
+           <br></br>
+           <div class="form-group">
+             <label for="city"><i class="fa fa-institution"></i> City</label>
+             <input type="text" id="city" name="city" placeholder="Vijayawada" required>
+           </div>
+           <br></br>
+           <div class="form-group">
+             <div class="row">
+               <div class="col-50">
+                 <label for="state">State</label>
+                 <input type="text" id="state" name="state" placeholder="NY" required>
+               </div>
+               <br></br>
+               <div class="col-50">
+                 <label for="zip">Zip</label>
+                 <input type="text" id="zip" name="zip" placeholder="10001" required>
+               </div>
+             </div>
+           </div>
+           <br></br>
+           <div class="form-group">
+             <label for="fname">Product Id</label>
+             <input type="text" id="zip" name="zip" placeholder="7867" required>
+           </div>
+           <br></br>
+           <div class="form-group">
+             <label for="fname">Quantity</label>
+             <input type="text" id="zip" name="zip" placeholder="50" required>
+           </div>
+           <br></br>
+           <style>
+              /* Style for the modal */
+              .modal {
+              display: none;
+              position: fixed;
+              z-index: 1;
+              left: 0;
+              top: 0;
+              width: 100%;
+              height: 100%;
+              overflow: auto;
+              background-color: rgba(0, 0, 0, 0.5);
+             }
+        
+             /* Style for the modal content */
+             .modal-content {
+              background-color: #22ec22;
+              margin: 15% auto;
+              padding: 20px;
+              border: 1px solid #888;
+              width: 80%;
+             }
+        
+             /* Style for the close button */
+             .close {
+              color: #aaa;
+              float: center;
+              font-size: 28px;
+              font-weight: bold;
+             }
+        
+             /* Style for the close button on hover */
+             .close:hover,
+             .close:focus {
+              color: black;
+              text-decoration: none;
+              cursor: pointer;
+             }
+           </style>
+           <!-- Button to trigger the alert -->
+           <button onclick="showAlert()">SUBMIT</button>
+        
+           <!-- The modal -->
+           <div id="myModal" class="modal">
+             <!-- Modal content -->
+             <div class="modal-content">
+               <span class="close" onclick="hideAlert()">Your order has confirmed!</span>
+             </div>
+           </div>
+        
+           <script>
+             // Function to show the alert
+             function showAlert() {
+              document.getElementById("myModal").style.display = "block";
+             }
+        
+             // Function to hide the alert
+             function hideAlert() {
+              document.getElementById("myModal").style.display = "none";
+             }
+           </script>        
+         </form>
+       </div>  
+       
+           <style>
+                /* Popup container - can be anything you want */
+                .popup {
+                  position: relative;
+                  display: inline-block;
+                  cursor: pointer;
+                  -webkit-user-select: none;
+                  -moz-user-select: none;
+                  -ms-user-select: none;
+                  user-select: none;
+                }
+                
+                /* The actual popup */
+                .popup .popuptext {
+                  visibility: hidden;
+                  width: 160px;
+                  background-color: #555;
+                  color: #fff;
+                  text-align: center;
+                  border-radius: 6px;
+                  padding: 8px 0;
+                  position: absolute;
+                  z-index: 1;
+                  bottom: 125%;
+                  left: 50%;
+                  margin-left: -80px;
+                }
+                
+                /* Popup arrow */
+                .popup .popuptext::after {
+                  content: "";
+                  position: absolute;
+                  top: 100%;
+                  left: 50%;
+                  margin-left: -5px;
+                  border-width: 5px;
+                  border-style: solid;
+                  border-color: #555 transparent transparent transparent;
+                }
+                
+                /* Toggle this class - hide and show the popup */
+                .popup .show {
+                  visibility: visible;
+                  -webkit-animation: fadeIn 1s;
+                  animation: fadeIn 1s;
+                }
+                
+                /* Add animation (fade in the popup) */
+                @-webkit-keyframes fadeIn {
+                  from {opacity: 0;} 
+                  to {opacity: 1;}
+                }
+                
+                @keyframes fadeIn {
+                  from {opacity: 0;}
+                  
+                  to {opacity:1 ;}
+                }
+          </style>
+                <div class="popup" onclick="myFunction()">Continue To Checkout
+                  <span class="popuptext" id="myPopup">Thank You! Your Request Has Been Received.</span>
+                </div>
+                
+                <script>
+                // When the user clicks on div, open the popup
+                function myFunction() {
+                  var popup = document.getElementById("myPopup");
+                  popup.classList.toggle("show");
+                }
+                </script>
+                   
+    </form>        
+</body>
+</html>
+
