@@ -14,8 +14,10 @@ This repository contains the code for a product landing page designed to showcas
 2. CSS3
 
 **How to Use**
+
    **1. Clone the repository:**
          git clone https://github.com/your-username/clay-pots-landing-page.git
+         
    **2. Navigate to the project directory:**
         cd clay-pots-landing-page
         Open the index.html file in your browser.
